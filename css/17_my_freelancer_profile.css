@@ -1,0 +1,745 @@
+.btn-logout-account{
+    font-size: 1.4rem;
+    background-color:var(--color-main);
+    color:#ffffff;
+}
+/* #nav-tab-links============ */
+#nav-tab-links{
+    margin-top: 80px;
+}
+#nav-tab-links a{
+    color:#242424
+}
+#nav-tab-links a.active{
+    color:#ff4500
+}
+
+/* profile-tab''''''''''''''''' */
+#navProfile a{
+    text-decoration: none;
+    color:var(--color-text);
+
+}
+a.edit-profile{
+    margin:30px 0px;
+}
+.btn-edit-profile{
+    padding:30px
+}
+.profile-tab{
+    margin-top: 0;
+}
+.profile-tab-item{
+    padding:0!important;
+}
+.profile-tab-item-des{
+    padding-left: 40px;
+}
+
+/* Portfolio tabs============ */
+.Portfolio-heading{
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.btn-add-Portfolio{
+    background-color:var(--color-main);
+    color:#fff;
+    font-size: 1.4rem;
+}
+.portfolio-item-bot{
+    text-align:center;
+    padding:25px 13px;
+    color:#242424;
+
+}
+i.fa-solid.fa-image{
+    color:#ff4500
+}
+.portfolio-item-bot-title{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.portfolio-item{
+    /* max-width:270px */
+    padding-left: 0!important;
+    
+}
+
+
+/* modal= portfolio=============== */
+.modal-header{
+    text-align: center;
+}
+h5#portfolioModalLabel{
+    text-align: center;
+    font-size: 1.8rem;
+    display:flex;
+    justify-content:center;
+    padding:25px 0px;
+}
+#modal-title-main{
+    font-size: 2.4rem;
+    text-align: center;
+    padding:50px 0px;
+}
+.modal-copy-img{
+    margin: 10px 0px;
+}
+.btn-modal-portfolio{
+    height:50px;
+    width:145px;
+    font-size: 1.4rem;
+    color:#242424;
+    font-weight: 500;
+}
+.btn-modal-portfolio:hover{
+    background-color:var(--color-main);
+    color:#fff
+}
+
+/* Notification tab=============== */
+.notification-body-item{
+    line-height:47px;
+    padding:15px 25px;
+    border:1px solid var(--color-border);
+    border-top:none;
+}
+.heading-notification{
+    padding:25px 30px;
+    margin-top: 30px;
+    border:1px solid var(--color-border)
+}
+.notification-item-left{
+    line-height:41px;
+    text-align: center;
+}
+.icon-notification-item{
+    border:1px solid var(--color-border);
+    border-radius: 50%;
+    width:57px;
+    height:57px;
+    text-align:center;
+    line-height:57px;
+    color:#b1b1b1;
+    background-color:#f3f3f3;
+}
+
+.contents-notification{
+    font-size:1.4rem;
+    margin-bottom: 0;
+    line-height: 57px;
+}
+.author-notification{
+    font-weight: 500;
+}
+.text-nomal-notificaion{
+    color:var(--color-text)
+}
+.author-skill-apply{
+    color:var(--color-main)
+}
+.time-notification{
+    line-height:57px;
+    color:var(--color-text);
+    
+}
+
+
+/* messages-tab================= */
+.messages-tab-body{
+    margin-top: 25px;
+
+}
+.messages-top-left{
+    border:1px solid var(--color-border);
+    padding:10px 20px;
+    
+}
+#search-messages{
+    border-radius:100px;
+    height:40px;
+    border:1px solid var(--color-border);
+    background-color:#f3f3f3;
+}
+#search-messages::placeholder{
+    font-size: 1.2rem;
+    padding-left: 15px;
+    color:#b1b1b1;
+}
+
+
+
+
+.messages-top-right{
+    border:1px solid var(--color-border);
+    border-left:none;
+    height:62px;
+    padding:10px 20px;
+
+}
+.author-message{
+    line-height:40px
+}
+.status-author-message{
+    color:var(--color-text);
+    font-weight: 450;
+}
+.btn-delete-meessage{
+    line-height:40px;
+    color:var(--color-text);
+}
+
+
+
+/* list friends==============
+ */
+ .friend-item{
+     padding:20px;
+     /* max-width:270px; */
+     overflow: hidden;
+     height: 80px;
+ }
+ .avt-friend{
+     line-height:43px;
+     position: relative;
+ }
+
+ #dot-status{
+     position:absolute;
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    background-color:#a1a1a1;
+    top:28%;
+    right:0;
+}
+
+.online-status-dot{
+    background-color:var(--color-main)!important;
+}
+
+.content-message{
+    color:var(--color-text);
+    max-width:120px!important;
+    overflow: hidden;
+
+}
+
+.content-main-message{
+    padding-left:30px;
+
+}
+
+
+.friend-item-time{
+    color:var(--color-text)
+}
+
+.day-time-message{
+    text-align:center;
+    padding:15px;
+}
+.hour-time{
+    color:var(--color-text);
+    margin-top: 10px;
+}
+.content-friend-send{
+    max-width:300px;
+    padding:20px 30px;
+    background-color:#f3f3f3;
+    color:#847577;
+}
+.content-collapse-friend-send{
+    padding:20px;
+    background-color:#f3f3f3;
+    border-radius:5px;
+}
+.me-send-content{
+    float: right;
+}
+.content-me-send{
+    max-width:300px;
+    padding:20px 30px;
+    border-radius:5px;
+    background-color:var(--color-main);
+    color:#fff;
+}
+
+
+.input-send-message{
+    margin-top: 200px;
+}
+.input-message{
+    height:50px;
+
+}
+.input-message{
+    font-size: 1.4rem;
+}
+.btn-send-message{
+    width:70px;
+    font-size: 1.4rem;
+    font-weight:500;
+    color:#fff;
+    background-color:var(--color-main);
+    height:50px;
+
+}
+/* bookmark -tab=========== */
+.bookmark-heading{
+    line-height:60px;
+    height:60px;
+    font-size: 1.4rem;
+    padding:20px 30px;
+    margin-top: 30px;
+}
+.bookmark-body{
+    /* line-height:100px; */
+    padding:30px;
+}
+.bookmark-heading-title{
+    margin-bottom: 15px;
+}
+
+.list-info-bookmark{
+    list-style: none;
+    display:flex;
+}
+.list-info-bookmark li{
+    margin-right: 20px;
+}
+.bookmark-icon{
+    color:var(--color-main);
+}
+.text-bookmark{
+    color:var(--color-text);
+    font-weight: 450;
+    margin-left: 3px;
+}
+
+.bookmark-body-right{
+    line-height:72px;
+}
+.bookmark-body-right:hover{
+    color:var(--color-main)
+}
+
+.skill-author-freelancer{
+    color:var(--color-text);
+    font-weight: 450;
+}
+.status-author-freelancer{
+    color:var(--color-main  );
+}
+.star-icon-freelancer-rate{
+    color:#b2c322;
+}
+.name-author-freelancer,.author-freelancer-rate
+,.location-author-freelancer{
+    margin-top: 20px;
+}
+.collapse-bookmark-freelance-item{
+    padding:30px;
+}
+#delete-btn-freelancer{
+    margin-top: 60px;
+    float: right;
+}
+
+
+/* Manage-Jobs-tab============= */
+.Manage-Jobs-item{
+    padding:30px;
+}
+.btn-manage-job{
+    color:#c6bfc0;
+    margin-right: 10px;
+
+}
+.btn-manage-job:hover{
+    color:var(--color-main)
+}
+.list-time-post-jobs{
+    list-style: none;
+    
+}
+.list-time-post-jobs li{
+    margin-right: 10px;
+    
+}
+.time-post-job{
+    color:var(--color-text)
+}
+.icon-post-job-item{
+    color:var(--color-main)
+}
+.status-job-manage{
+    /* padding:5px; */
+    height:30px;
+    line-height:18px;
+    padding:5px;
+    border:1px solid var(--color-border);
+    border-radius:20px;
+    background-color:#f3f3f3;
+    font-size:1.2rem;
+    color:var(--color-main);
+    margin-top: 7px;
+}
+.name-job-manage-job{
+    line-height:42px;
+}
+
+.btn-applied-candidate{
+    background-color:var(--color-main);
+    padding:5px;
+    color:#fff;
+    border-radius:100px;
+    max-width: 200px;
+    font-weight: 480;
+}
+.circle-number-applied{
+
+    width:20px;
+    height:20px;
+    line-height:20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color:#fe7b4b;
+    margin-right: 10px;
+}
+/* ///////////////////job tab final---------- */
+#v-pills-tab a{
+    color:var(--color-text);
+    background-color:#fff;
+    line-height:50px;
+}
+#v-pills-tab a:hover{
+    color:var(--color-main);
+    background-color:#f3f3f3;
+}
+#v-pills-tab{
+    border:1px solid var(--color-border);
+}
+.v-content-heading{
+    padding:20px 30px;
+}
+
+/* Applied Jobs---vertical-tab */
+.v-btn-applied{
+    line-height:20px;
+    text-align: center;
+    padding:5   px;
+    background-color:var(--color-main);
+    color:#fff;
+    max-width:100px;
+    border-radius:100px;
+}
+
+/* Applied Candidates-vertical-tab */
+.btn-group-applied-candidate{
+    margin-top:15px;
+}
+.btn-applied-candidate-item{
+    background-color:#242424;
+    font-size:1.2rem;
+    color:#fff;
+    font-weight: 430;
+}
+.btn-applied-candidate-item:hover{
+    background-color:var(--color-main);
+}
+
+/* bid-tab****************** */
+.bids-detail-item{
+    padding:10px 20px;
+    border:1px solid var(--color-border);
+    background-color:#f3f3f3;
+    margin:20px 0px;
+}
+.btn-bidders{
+    max-width:100px!important;
+}
+.number-bid-detail{
+    color:#242424;
+}
+.text-bid-detail{
+    color:var(--color-text)
+}
+
+/* vertical--manage-bids---------------- */
+.btn-group-manage-bids{
+    margin-top: 15px;
+}
+.btn-group-manage-bids-item{
+    background-color:#242424;
+    color:#fff;
+    font-size: 1.2rem;
+}
+.btn-group-manage-bids-item:hover{
+    background-color:var(--color-main);
+}
+
+
+.cost-manage-bids-item{
+    background-color:#f3f3f3;
+    /* display:flex; */
+    font-size: 1rem;
+    height:40px;
+    margin-right: 10px;
+    padding:5px;
+    line-height:40px;
+    text-align: center;
+    border:1px solid var(--color-border);
+    /* max-width:90px; */
+}
+.cost-manage-bid{
+    font-size: 1rem;
+}
+.text-cost-manage-bids-item{
+    color:var(--color-text);
+}
+
+
+/* vertical--post-a project-tab++++++++++++++++ */
+.btn-post-a-project-v-tab{
+
+}
+.btn-post-project-v{
+    font-size: 1.4rem;
+    color:#fff;
+    background-color:var(--color-main);
+    height:40px
+}
+
+
+/* reviews-tab***************** */
+.reviews-tab-heading{
+    margin-top: 30px;
+    padding:20px 30px;
+    justify-content:space-between
+}
+.btn-reviewa-heading{
+    background-color:var(--color-main);
+    color:#fff;
+    font-size: 1.2rem;
+    float: right;
+}
+.reviews-tab-item{
+    padding:30px;
+}
+.reviews-tab-item img{
+    width:80px;
+    height:80px;
+    margin-right: 20px;
+}
+.author-reviews-tab{
+    /* line-height:80px; */
+}
+.star-rate-author-reviews-tab{
+    color:#b2c322;
+}
+.description-reviews-tab-item{
+    color:#b5acad;
+}
+
+/* modal-reviews-tab===== */
+#reviewsModalLabel{
+    text-align: center;
+    font-size: 1.4rem;
+    padding:20px;
+}
+#contentModalLabel{
+    text-align: center;
+    padding:50px;
+    border-top:1px solid var(--color-border)
+}
+#selectReviewsModal{
+    font-size: 1.2rem;
+    height:40px;
+}
+#inputTextReviewsModal{
+    height:100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.btn-reviews-modal{
+    background-color:var(--color-main);
+    color:#fff;
+    
+}
+
+
+
+
+/* /////////Payments tabs */
+#collapse-Earnings-Payments{
+    padding:20px;
+}
+#collapse-Send-Payments{
+    padding:20px;
+}
+.cost-Your-Earnings{
+    background-color:#f3f3f3;
+    color:var(--color-main);
+    height:40px;
+    width:100px;
+    text-align: center;
+    line-height: 40px;
+
+}
+.btn-Your-Earnings{
+    background-color:var(--color-main);
+    color:#fff;
+    font-size: 1.4rem;
+}
+.label-collapse-Send-Payments-item{
+    margin-bottom: 15px;
+}
+#collapse-Send-Payments input{
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+}
+
+
+
+
+.id-bot-Transactions{
+    color:var(--color-main)
+}
+.time-bot-Transactions{
+    color:var(--color-text)
+}
+
+.btn-pedding-Transactions{
+    background-color:#f3f3f3;
+    font-size: 1.2rem;
+    border-radius:100px;
+    color:var(--color-main);
+    width:100px;
+    height:30px;
+    line-height:21px;
+    font-size: 500;
+    
+
+
+}
+
+
+
+/* SETTING TABS============== */
+.contents-My-Profile{
+    padding:20px;
+    margin-bottom: 80px;
+}
+.contents-My-Profile input{
+    height:40px;
+}
+.content-my-profile-row{
+    margin-top: 30px;
+}
+.content-my-profile-row input{
+    height:40px;    
+}
+.content-my-profile-row.col{
+    padding-left: 0;
+}
+.content-my-profile-row.col select{
+    height:40px;
+}
+.content-my-profile-row-col{
+    padding-left: 0;
+}
+.label-contents-My-Profile{
+    margin: 20px 0px;
+}
+
+select.select-My-Profile-item.form-control{
+    height:40px!important;
+}
+.my-profile-item-location{
+    position: relative;
+}
+#location-my-profile-icon{
+    position:absolute;
+    right:10px;
+    top:15px ; 
+}
+
+.btn-my-profile-tab{
+    width:150px;
+    height:50px;
+    background-color:var(--color-main);
+    color:#fff;
+    font-size: 1.4rem;
+    margin: 50px 0px 50px 0px;
+}
+
+
+
+/* vertical Social Account-------------- */
+.link-Social-Accounts-item{
+    padding:20px;
+}
+.input-group-prepend{
+    height:40px
+}
+.input-group-text{
+    width:50px;
+    text-align: center;
+    line-height:30px;
+    font-size: 1.4rem;
+    color:#fff;
+    /* background-color:var(--color-main); */
+}
+
+
+
+#social-icon-brands-link-facebook{
+    background-color:#3b5998;
+}
+#social-icon-brands-link-twitter{
+    background-color:#1da1f2;
+}
+
+#social-icon-brands-link-google {
+    background-color:#dd4b39;
+}
+#social-icon-brands-link-youtube{
+    background-color:#ff0000;
+}
+#social-icon-brands-link-likedin{
+    background-color:#8d6cab;
+
+}
+#social-icon-brands-link-instagram{
+    background-color:#c13584;
+}
+#social-icon-brands-link-dribble{
+    background-color:#ea4c89;
+}
+#social-icon-brands-link-behance{
+    background-color:#1769ff;
+}
+#social-icon-brands-link-github{
+    background-color:#333333;
+}
+
+
+
+/* vertical Change password */
+.change-password-vertical-item{
+    padding:20px;
+}
+
+.change-password-vertical-item input{
+    height:40px;
+}
+
+/* Deactivate-Account-*/
+.Deactivate-Account-item{
+    padding:20px;
+}
+
+#input-explain-further{
+    height:125px;   
+}

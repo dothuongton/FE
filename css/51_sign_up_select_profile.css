@@ -1,0 +1,57 @@
+.heading-sign-up-body{
+    margin:80px auto;
+    text-align: center;
+}
+h3.choose-your-profile{
+        margin-top: 50px;
+}
+.description-choose-your-profile{
+    color:var(--color-text);
+    font-size: 1.4rem;
+    font-weight:470;
+    margin-top: 20px;
+}
+
+
+
+#choose-profile-group{
+    text-align: center;
+    margin:50px auto;
+    justify-content:center
+}
+.sign-up-profile-item{
+    max-width:370px;
+    border:1px solid var(--color-border);
+    padding: 30px 0px;
+}
+.typeOfSignUp{
+    margin:30px auto;
+    font-weight: bold;
+}
+.title-sign-up-profile-item{
+    padding: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color:#f3f3f3
+
+}
+.descriptionSignUp{
+    padding:20px 30px 30px 30px;
+    max-width:300px;
+    text-align: start;
+    color:var(--color-text);
+    font-size: 1.4rem;
+}
+.btn-sign-up{
+    width:100%;
+    height:50px;
+    background-color:#242424;
+    color:#ffffff;
+    font-size: 1.4rem;
+    margin:0px 30px 30px 30px;
+    max-width:240px;
+    font-weight: 500;
+}
+.btn-sign-up:hover{
+    background-color:var(--color-main);
+}

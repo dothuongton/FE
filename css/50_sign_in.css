@@ -1,0 +1,74 @@
+.sign-in-item{
+    padding:20px;
+    margin: 50px auto;
+    max-width:500px;
+    
+}
+.sign-in-item input{
+    height:40px;
+}
+.heading-sign-in-item{
+    text-align: center;
+
+}
+.heading-sign-in-item h1{
+    font-size: 2.4rem;
+    font-weight:bold;
+}
+.label-body-sign-in{
+    margin:20px 0px;
+}
+.termsOfService{
+    font-size: 1.4rem;
+    margin:30px 0px;
+}
+.text-accept{
+    color:var(--color-text);
+}
+.text-hight-ligh-terms{
+    color:var(--color-main);
+}
+.fa-solid.fa-circle-check{
+    color:var(--color-main);
+    
+}
+
+
+/* password */
+.field-icon {
+    position: relative;
+    float: right;
+    margin-left:    0px;
+    margin-top: -25px;
+    z-index: 2;
+    font-size: 1.4rem;
+  }
+#password-field{
+    font-size: 1.4rem;
+}
+.btn-sign-in{
+    height:40px;
+    background-color:var(--color-main);
+    color:#fff;
+    width:100%;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+.text-join-us-group{
+    font-size: 1.4rem;
+    text-align: center;
+
+}
+.text-join-us-item{
+    color:var(--color-text);
+    font-weight: 480;
+}
+.sign-in-now{
+    color:var(--color-main);
+
+}
+.sign-in-now a{
+    color:var(--color-main);
+    text-decoration: none;
+
+}

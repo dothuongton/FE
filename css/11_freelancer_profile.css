@@ -1,0 +1,58 @@
+.btn-left-sidebar-item{
+    height:40px;
+    background-color:#242424;
+    line-height:40px;
+    text-align: center;
+    margin: 10px 15px 30px 0px;
+
+    font-weight: 500;
+    border-radius:3px;
+
+}
+.btn-left-sidebar-item:hover{
+    background-color:#ff4500
+}
+.btn-left-sidebar-item a{
+    text-decoration: none;
+    color:#ffffff;
+
+}
+.btn-contact,.btn-hire-me{
+    width:130px;
+}
+.btn-hire-me{
+    margin-right: 0;
+}
+/* ///////////////right-sidebar nav-link */
+.nav-link-tabs{
+    margin-top: 100px;
+}
+.tabLinks{
+    padding-top: 100px;
+}
+.profile-tab-item{
+    padding:25px 25px 25px 35px;
+}
+.badge-profile-item{
+    width:100px;
+    height:30px;
+    line-height:20px;
+    text-align: center;
+    font-weight: 450;
+    font-size: 1.4rem;
+
+    margin-bottom: 20px;
+    border:1px solid var(--color-border);
+    background-color:#f3f3f3;
+}
+.profile-tab-item-heading{
+    padding:25px 40px;
+    margin-bottom: 0;
+}
+.badge-profile-tab-item{
+    padding:25px 40px;
+}
+.language-items{
+    background-color:#ff4500;
+    color:#ffffff
+}

@@ -1,0 +1,356 @@
+.body-post-job{
+    font-size:1.4rem;
+}
+.body-post-job-main{
+    /* padding-top: 80px; */
+}
+.left-sidebar-item{
+
+}
+/* .left-sidebar-progress-group{
+    display:inline-block
+} */
+.left-sidebar-item-info{
+    padding:80px 50px 10px 50px;
+}
+.left-sidebar-item img{
+    width:100%;
+    margin-bottom:10px;
+}
+.custom-file-upload{
+    text-align: center;
+
+    width:150px;
+    /* margin-top: 10px; */
+    margin-bottom: 0;
+    height:30px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:#847577;
+    background-color:#efefef;
+    border-radius: 3px;
+    border:none;
+    transition: 0.4s;
+    padding: 6px;
+}
+/* .left-sidebar-btn{
+    width:150px;
+    height:30px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:#847577;
+    border-radius: 3px;
+    border:none;
+    transition: 0.4s;
+    text-align: center;
+} */
+.left-sidebar-btn:hover{
+    background-color: var(--color-main);
+    color: #ffffff;
+    border:none;
+    
+}
+.post-job-name{
+    margin-top:30px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+}
+.post-job-skill{
+    font-size: 1.4rem;
+    font-weight:480;
+    color:var(--color-text);
+    margin-bottom: 15px;
+    text-align:center;
+}
+.post-job-status{
+    color:var(--color-main);
+    margin-bottom:0px;
+    text-align: center;
+}
+/* left-sidebar-website--------------- */
+.left-sidebar-website {
+    margin-top: 30px;
+    padding-bottom:30px;
+}
+.left-sidebar-website ul{
+    margin-top: 20px;
+}
+.left-sidebar-website ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 15px;
+    
+}
+.left-sidebar-website ul li a{
+    list-style: none;
+    text-decoration: none;
+    color:var(--color-text)
+}
+.left-sidebar-website ul li a:hover{
+    list-style: none;
+    text-decoration: none;
+    color:var(--color-main)
+}
+.left-side-bar-post-job-btn{
+    text-align: center;
+    border:1px solid var(--color-main) !important;
+    border-radius:25px;
+    padding:10px;
+    margin:25px 20px 30px 20px;
+    color:var(--color-main);
+    font-weight: 500;
+    background-color:#ffffff;
+}
+
+.text{
+    font-weight: 500;
+    padding-top: 0;
+}
+/* left sidebar RATING */
+#rating{
+    padding:30px 0px;
+}
+/* LOCATION===================== */
+#location{
+    padding:30px 0px;
+}
+.fa-solid.fa-location-dot{
+    color:var(--color-main);
+
+}
+.gps-location{
+    width:270px;
+    height:150px;
+}
+.detail-job{
+    padding-top: 20px;
+}
+
+.detail-job-text{
+    color:var(--color-text);
+    font-weight: 500;
+}
+.detail-job-item{
+    margin-bottom: 25px;
+}
+
+
+/* social-link-item------------------------- */
+.social-link{
+    padding-top:30px;
+}
+
+.social-link-group{
+    padding:30px 0px 80px 0px;
+}
+.social-link-item{
+    display:flex;
+    /* line-height:38px; */
+    align-items: center;
+	justify-content: start;
+    position: relative;
+
+    border:1px solid var(--color-border);
+    border-radius: 90px;
+    overflow: hidden;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fa-brands.fa-facebook{
+    font-size: 1.6rem;
+}
+.social-link-item a{
+    text-decoration: none;
+    color:var(--color-text)
+}
+.social-link-item a:hover{
+    color:var(--color-main)
+}
+.social-link-item-icon{
+    /* font-size: 2.4rem!important; */
+    line-height: 40px;
+    font-size: 2rem!important;
+    margin-right: 15px;
+
+    color:#ffffff;
+
+}
+.social-brands-icon{
+    height:40px;
+    width:40px;
+    /* background-color:#444444; */
+    line-height:40px;
+
+    border-radius:50%;
+    align-items: center;
+    justify-content:center;
+    padding-left: 11px;
+    padding-top: 1px;
+    margin-right:10px;
+
+
+    
+}
+#fb-brand{
+    background-color:#3b5998;
+    padding-left: 14px;
+}
+#twitter-brand{
+    background-color:#1da1f2;
+}
+#likedin-brand{
+    background-color:#8d6cab;
+}
+#dribbble-brand{
+    background-color:#ea4c89;
+}
+#behance-brand{
+    background-color:#1769ff;
+}
+#github-brand{
+    background-color:#333333;
+}
+
+
+
+/*================= body right */
+.body-right{
+    padding-top: 80px;
+}
+.body-right-tabs{
+    margin-top: 50px;
+
+}
+.body-right-main{
+    display:flex;
+    margin-top: 30px;
+
+}
+.nav-item a{
+    text-decoration: none;
+    color:#242424;
+}
+.nav-tabs .nav-link.active{
+    color:var(--color-main)
+}
+.body-right-main-left{
+    padding:0;
+    border:1px solid var(--color-border);
+}
+.body-right-main-left ul{
+    margin-bottom: 0px;
+
+}
+
+.body-right-main-left ul li{
+    list-style: none;
+    height:50px;
+    padding:20px;
+}
+.body-right-main-left ul li:hover{
+    border-left: 2px solid var(--color-main);
+    padding-left: 18px;
+    padding-top: 20px;
+    background-color:#f3f3f3;
+}
+.body-right-main-left ul li a{
+    text-decoration: none;
+    color:var(--color-text);
+    font-size: 1.4rem;
+
+}
+.body-right-main-left ul li a:hover{
+    color:var(--color-main);
+    
+}
+
+
+/* post job */
+.post-job-heading{
+    font-size: 1.8rem;
+    padding: 25px 0px 25px 30px;
+    margin-bottom: 0;
+    border-bottom:none;
+}
+
+.post-form{
+    padding:30px 30px 50px 30px;
+    border: 1px solid var(--color-border);
+    border-left:none;
+}
+/* .post-form-top{
+    height:340px
+} */
+.post-form label{
+    font-size: 1.4rem;
+    font-weight:500
+}
+.post-form input{
+    height:40px!important;
+    border-radius:3px;
+}
+.post-form select{
+    height:40px!important;
+    border-radius:3px;
+}
+.post-form h4{
+    font-size: 1.4rem;
+}
+input::-webkit-input-placeholder {
+    font-size: 1.2rem;
+}
+/* ::placeholder{
+    font-size: 1.2rem;
+} */
+.post-form-item{
+    margin-top: 30px;
+}
+.post-form-job-des{
+    height:130px!important;
+}
+/* post-form-bottom================== */
+.post-form-bot{
+    margin-top: 50px!important;
+}
+.post-form-job-heading{
+    font-size: 1.8rem;
+    font-weight: 450;
+    padding-bottom: 15px;
+
+}
+/* /// post-form experience */
+#button-addon2{
+    background-color:#f3f3f3;
+    width:80px
+}
+#button-addon2:hover{
+    color:var(--color-text)
+}
+.post-form-item-location{
+    display:relative;
+}
+.fa-location-crosshairs{
+    position: absolute;
+    top: 70px;
+    right:30px;
+    pointer-events: none;
+}
+/* skills */
+.btn-skills{
+    background-color:var(--color-main);
+    width:80px;
+    color:#fff;
+}
+.custom-btn-upload-file{
+    background-color:var(--color-main);
+    padding:10px;
+    border-radius:3px;
+    color:#ffffff
+}
+.skills-text{
+    color:var(--color-text);
+    font-size: 1.2rem;
+}

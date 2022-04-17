@@ -1,0 +1,117 @@
+.icons-item{
+    font-size: 1.4rem;
+    color:var(--color-main);
+    padding-right: 5px;
+
+}
+.info-job-item{
+    font-size: 1.4rem;
+    margin-right: 40px;
+    font-weight: 500;
+    color:var(--color-text)
+}
+.info-name{
+    color:#242424
+}
+.job-view{
+    justify-content:space-between;
+    font-size: 1.4rem;
+    padding-top: 30px;
+}
+.view-avt{
+    margin-right: 15px;
+}
+.author-name{
+    font-size: 1.8rem;
+    font-weight:600
+}
+.view-salary{
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+#status-job{
+    background-color:var(--color-main);
+    color:#ffffff
+}
+
+
+/* btn-job-view-top-right====== */
+.btn-job-view-top-right{
+    border:1px solid var(--color-border);
+    background-color:var(--color-main);
+
+    height:50px;
+    text-align:center;
+    vertical-align: middle;
+
+    line-height:50px;
+    font-size: 1.6rem;
+}
+.btn-job-view-top-right a{
+    color:#ffffff;
+    text-decoration: none;
+}
+#bookmark{
+    background-color:#ffffff;
+    margin:30px 0px;
+}
+#bookmark a{
+    color:#242424;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* job-view-bot============= */
+.job-view-des{
+    font-size: 1.4rem;
+    color:var(--color-text);
+    margin:30px 0px;
+}
+.skills-badge{
+    margin-bottom: 50px;
+}
+.badge-skill-item{
+    margin-right: 10px;
+    font-weight:450;
+    font-size: 1.4rem;
+
+
+    background-color:#f3f3f3;
+    color:#847577;
+    padding:10px 25px;
+    border:1px solid var(--color-border)
+}
+/* job-view-require */
+/* .job-view-require{
+    margin-bottom: 30px;
+} */
+.job-view-require-text{
+    color:var(--color-text);
+    font-weight: 480;
+}
+.btn-job-view{
+    border:1px solid var(--color-border);
+    background-color:var(--color-main);
+    margin:30px 0px;
+}
+.btn-job-view a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 1.4rem;
+    font-weight:470
+}
+/* similar-job============= */
+.similar-job{
+    padding: 80px 0px;
+    text-align: center;
+}

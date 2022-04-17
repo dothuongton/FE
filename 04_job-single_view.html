@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/66d2101b44.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/04_job-single_view.css">
+  <link rel="stylesheet" href="./css/home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+</head>
+<body>
+<header class="header">
+    <div class="container">
+         <div class="row" id="body-row">
+
+      <div class="overlay d-none"></div>
+      <!-- Sidebar -->
+      <div id="sidebar-container" class="sidebar-expanded d-none">
+        <ul class="list-group">
+          <!-- /END Separator -->
+          <!-- Menu with submenu -->
+          <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class=" list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-start align-items-center">
+              <span class="fa fa-dashboard fa-fw mr-3"></span>
+              <span class="menu-collapsed">Home</span>
+            </div>
+          </a>
+          <!-- Submenu content -->
+          <div id="submenu1" class="collapse sidebar-submenu">
+            <a href="#" class="list-group-item list-group-item-action">
+              <span class="menu-collapsed">Charts</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action ">
+              <span class="menu-collapsed">Reports</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action ">
+              <span class="menu-collapsed">Tables</span>
+            </a>
+          </div>
+          <a
+            href="#submenu2"
+            data-toggle="collapse"
+            aria-expanded="false"
+            class=" list-group-item list-group-item-action flex-column align-items-start"
+          >
+            <div class="d-flex w-100 justify-content-start align-items-center">
+              <span class="menu-collapsed">Find Jobs</span>
+            </div>
+          </a>
+          <!-- Submenu content -->
+          <div id="submenu2" class="collapse sidebar-submenu">
+            <a
+              href="#"
+              class="list-group-item list-group-item-action "
+            >
+              <span class="menu-collapsed">Settings</span>
+            </a>
+            <a
+              href="#"
+              class="list-group-item list-group-item-action "
+            >
+              <span class="menu-collapsed">Password</span>
+            </a>
+          </div>
+          <a href="#" class=" list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-start align-items-center">
+              <span class="menu-collapsed">Find Works</span>
+            </div>
+          </a>
+          <!-- /END Separator -->
+          <a href="#" class=" list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-start align-items-center">
+              <span class="menu-collapsed">Find Company</span>
+            </div>
+          </a>
+          <a href="#" class=" list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-start align-items-center">
+              <span class="menu-collapsed"
+                >Find Freelancer
+            </div>
+          </a>
+          <!-- /END Separator -->
+          <a href="#" class=" list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-start align-items-center">
+              <span class="menu-collapsed">Pages</span>
+            </div>
+          </a>
+          </a>
+          <!-- Logo -->
+          
+        </ul>
+        <!-- List Group END-->
+      </div>
+    </div>
+    <!-- body-row END -->
+
+    <div class="container">
+      <div class="row" style="align-items: center; height: 40px">
+        <div class="col-xl-4 col-lg-5 col-sm-6 col-md-5 left-header-edge">
+          <div class="display-item">
+            <div class="text-header padding-item icon-common text-header-logo">
+              <span style="color:#847577">Welcome to Jobby</span>
+            </div>
+            <div
+              class="display-item padding-item icon-common padding-item-none"
+            >
+              <span><i style="color:#ff4500" class="fas fa-globe center"></i></span>
+              <div class="dropdown">
+                <span
+                  class="padding-item-self hover-item"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span style="margin-right: 5px">&ensp;EN</span>
+                  <i class="fas fa-caret-down"></i>
+                </span>
+                <div
+                  class="dropdown-menu icon-common dropdown-menu-commons"
+                  aria-labelledby="dropdownMenuButton"
+                >
+                  <a class="dropdown-item dropdown-item-common" href="#">EN</a>
+                  <a class="dropdown-item dropdown-item-common" href="#">DE</a>
+                  <a class="dropdown-item dropdown-item-common" href="#">RU</a>
+                  <a class="dropdown-item dropdown-item-common" href="#">ES</a>
+                  <a class="dropdown-item dropdown-item-common" href="#">FR</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-2 col-md-1 col-sm-auto middle-header"></div>
+        <div class="col-xl-4 col-lg-5 col-md-6 col-sm-6 right-header">
+          <div class="header-right">
+            <div class="padding-item border-item">
+              <span class="position-item">
+                <div class="btn-group">
+                  <!-- btn-bell -->
+                  <span data-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-envelope hover-item icon-self" style="font-size:1.4rem;color:#b1b1b1"></i>
+                  </span>
+                  <div class="dropdown-menu dropdown-menu-right dropdown-menu-commons">
+                    <div class="dropdown-item display-item">
+                      <!-- <i class="fas fa-user-nurse hover-cursor"></i> -->
+                      <img src="./image/avt.png" alt="avatar" srcset="">
+
+                      <div class="hover-cursor" style="margin-left: 20px">
+                        <div style="display: flex;justify-content: space-between;align-items: center;">
+                          <b class="icon-common hover-item">Rock Welcome</b>
+                          <span style="font-size:1.2rem; ">2 min ago</span>
+                        </div>
+                        <div class="text-bell-common">
+                          hello1
+                          <span class="text-color-common hover-item-black"
+                            >hello ddsafsf</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-item display-item">
+                      <!-- <i class="fas fa-user-nurse hover-cursor"></i> -->
+                      <img src="./image/avt.png" alt="avatar" srcset="">
+                      <div class="hover-cursor" style="margin-left: 20px">
+                        <div
+                          style="
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                          "
+                        >
+                          <b class="icon-common hover-item">Rock Welcome</b>
+                          <span style="font-size: 1.2rem; ">2 min ago</span>
+                        </div>
+                        <div class="text-bell-common">
+                          hello
+                          <span class="text-color-common hover-item-black"
+                            >hello ddsafsf</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-item display-item">
+                      <!-- <i class="fas fa-user-nurse hover-cursor"></i> -->
+                      <img src="./image/avt.png" alt="avatar" srcset="">
+
+                      <div class="hover-cursor" style="margin-left: 20px">
+                        <div
+                          style="display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                          "
+                        >
+                          <b class="icon-common hover-item">Rock Welcome</b>
+                          <span style="font-size: 1.2rem;">2 min ago</span>
+                        </div>
+                        <div class="text-bell-common">
+                          hello 
+                          <span class="text-color-common hover-item-black"
+                            >hello ddsafsf</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="dropdown-item display-item dropdown-hover"
+                      style="background: black"
+                    >
+                      <span
+                        style="
+                          color: white;
+                          font-size: 1.4rem;
+                          display: block;
+                          text-align: center;
+                          padding: 10px 0;
+                        "
+                        >View all notifications</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </div>
+            <div class="padding-item">
+              <span class="position-item">
+                <div class="btn-group">
+                  <span data-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-bell icon-self hover-item" style="font-size:1.4rem;color:#b1b1b1"></i>
+                  </span>
+                  <div
+                    class="dropdown-menu dropdown-menu-right dropdown-menu-commons"
+                  >
+                    <div class="dropdown-item display-item">
+                      <img src="./image/avt.png" alt="" srcset="">
+                      <div class="hover-cursor" style="margin-left: 20px">
+                        <div>
+                          <b class="icon-common hover-item">Rock Welcome</b>
+                        </div>
+                        <div class="text-bell-common">
+                          hello
+                          <span class="text-color-common hover-item-black"
+                            >hello ddsafsf</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-item display-item">
+                      <img src="./image/avt.png" alt="" srcset="">
+                      <div class="hover-cursor" style="margin-left: 20px">
+                        <div>
+                          <b class="icon-common hover-item">Rock Welcome</b>
+                        </div>
+                        <div class="text-bell-common">
+                          hello
+                          <span class="text-color-common hover-item-black"
+                            >hello ddsafsf</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-item display-item">
+                      <img src="./image/avt.png" alt="" srcset="">
+                      <div class="hover-cursor" style="margin-left: 20px">
+                        <div>
+                          <b class="icon-common hover-item">Rock Welcome</b>
+                        </div>
+                        <div class="text-bell-common">
+                          hello 
+                          <span class="text-color-common hover-item-black"
+                            >Rock for a Php Developer</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="dropdown-item display-item dropdown-hover"
+                      style="background: black"
+                    >
+                      <span
+                        style="
+                          color: white;
+                          font-size: 1.4rem;
+                          display: block;
+                          text-align: center;
+                          padding: 10px 0;
+                        "
+                        >View all notifications</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </div>
+            <ul class="padding-item display-item list-item border-item wraper-list">
+              <li><img src="./image/avt.png" alt="" srcset=""></li>
+              <li class="padding-item-self icon-common hover-item">
+                <div class="dropdown">
+                  <span class="padding-item-self " id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                    <span style="margin-right: 5px;margin-left: 10px;" class="text-name">Hi! John</span><i class="fas fa-caret-down"></i>
+                  </span>
+                  <div class="dropdown-menu icon-common dropdown-menu-commons" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item dropdown-item-common" href="#">Dashboard</a>
+                    <a class="dropdown-item dropdown-item-common" href="#">Settings</a>
+                    <a class="dropdown-item dropdown-item-common" href="#">My Messages</a>
+                    <a class="dropdown-item dropdown-item-common" href="#">My Jobs</a>
+                    <a class="dropdown-item dropdown-item-common" href="#">My Bids</a>
+                    <a class="dropdown-item dropdown-item-common" href="#">Settings</a>
+                    <a class="dropdown-item dropdown-item-common" href="#">My Messages</a>
+                    <a class="dropdown-item dropdown-item-common" href="#">My Jobs</a>
+                    <a class="dropdown-item dropdown-item-common" href="#">My Bids</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="align-items: center; height: 60px">
+        <div class="col-xl-2 col-lg-4 col-md-8 col-sm-6 col-6 header-boddy">
+          <span class="bars-icon"><i class="fas fa-bars"></i></span>
+          <img src="./image/logo.png" alt="logo" srcset="">
+        </div>
+        <div class="col-xl-7 col-lg-8 col-md-4 col-sm-6 col-6 header-input">
+          <div
+            class="input-group search-md"
+            style="border-bottom: 1px solid #ff4500"
+          >
+            <div class="input-group-prepend">
+              <span
+                class="input-group-text"
+                id="basic-addon1"
+                style="border: none; background: white"
+                ><i class="fas fa-search"></i
+              ></span>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search"
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+              style="border: none"
+            />
+          </div>
+
+          <ul
+            class="list-item display-item list-item-content media-list"
+            style="justify-content: flex-end"
+          >
+            <li>Home</li>
+            <li class="display-item padding-item icon-common">
+              <div class="dropdown">
+                <span
+                  class="padding-item-self hover-item"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span>Find Jobs</span>
+                </span>
+                <div class="dropdown-menu icon-common dropdown-menu-commons" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item dropdown-item-common" href="#">Browser Jobs</a>
+                  <a class="dropdown-item dropdown-item-common" href="#">Single Jobs</a>
+                  <a class="dropdown-item dropdown-item-common" href="#">Post a Job</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="display-item padding-item icon-common">
+              <div class="dropdown">
+                <span
+                  class="padding-item-self hover-item"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span>Find Work</span>
+                </span>
+                <div
+                  class="dropdown-menu icon-common dropdown-menu-commons"
+                  aria-labelledby="dropdownMenuButton"
+                >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Browser Jobs</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Single Jobs</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Post a Job</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="display-item padding-item icon-common">
+              <div class="dropdown">
+                <span
+                  class="padding-item-self hover-item"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span>Find Company</span>
+                </span>
+                <div
+                  class="dropdown-menu icon-common dropdown-menu-commons"
+                  aria-labelledby="dropdownMenuButton"
+                >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Browser Jobs</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Single Jobs</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Post a Job</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="display-item padding-item icon-common">
+              <div class="dropdown">
+                <span
+                  class="padding-item-self hover-item"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span>Find Freelancer</span>
+                </span>
+                <div
+                  class="dropdown-menu icon-common dropdown-menu-commons"
+                  aria-labelledby="dropdownMenuButton"
+                >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Browser Jobs</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Single Jobs</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Post a Job</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="display-item padding-item icon-common">
+              <div class="dropdown">
+                <span
+                  class="padding-item-self hover-item"
+                  id="dropdownMenuButton"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span>Pages <i class="fas fa-caret-down"></i></span>
+                </span>
+                <div
+                  class="dropdown-menu icon-common dropdown-menu-commons"
+                  aria-labelledby="dropdownMenuButton"
+                >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Browser Jobs</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Single Jobs</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Post a Job</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Browser Jobs</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Single Jobs</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Post a Job</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Browser Jobs</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Single Jobs</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Post a Job</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Browser Jobs</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Single Jobs</a
+                  >
+                  <a class="dropdown-item dropdown-item-common" href="#"
+                    >Post a Job</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li
+              data-toggle="modal"
+              data-target="#exampleModal"
+              data-whatever="@mdo"
+              class="hover-cursor"
+            >
+              <i class="fas fa-search"></i>
+            </li>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="recipient-name"
+                    placeholder="Search keywords..."
+                  />
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div class="col-3 btn-header-right">
+          <button type="button" class="btn icon-common" style="background-color:#ff4500; color:#ffffff;font-weight:450">
+            POST A JOB
+          </button>
+          <button
+            type="button"
+            class="btn btn-dark icon-common"
+            style="margin-left: 10px"
+          >
+            POST A TASK
+          </button>
+        </div>
+      </div>
+    </div>
+    </div>
+</header>
+
+<section class="path">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="left-path">
+        <a href="">Job Single View</a>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="right-path ">
+          <a href="">Home</a>
+          <span style="color:white">/</span>
+          <a href="">Jobs Single View</a>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="body-main">
+  <div class="container">
+    <div class="row" style="padding:30px 0px;">
+      <div class="col-auto icons-item">
+        <i class="fa-solid fa-eye"></i>
+      </div>
+      <div class="info-job-item">
+        <div class="info-name">Views</div>
+        <div class="info-amount">135</div>
+      </div>
+      <!-- gr-2 -->
+      <div class="col-auto icons-item">
+        <i class="fa-solid fa-users"></i>
+      </div>
+      <div class="info-job-item">
+        <div class="info-name">Applicant</div>
+        <div class="info-amount">4</div>
+      </div>
+      <!-- gr-3 -->
+      <div class="col-auto icons-item">
+        <i class="fa-solid fa-eye"></i>
+      </div>
+      <div class="info-job-item">
+        <div class="info-name">Job Type</div>
+        <div class="info-amount">Full Time</div>
+      </div>
+      <!-- gr-4 -->
+      <div class="col-auto icons-item">
+        <i class="fa-solid fa-money-bill-1"></i>
+      </div>
+      <div class="info-job-item">
+        <div class="info-name">Salary</div>
+        <div class="info-amount">$599 - Manual</div>
+      </div>
+      <!-- gr-5 -->
+      <div class="col-auto icons-item">
+        <i class="fa-solid fa-clock"></i>
+      </div>
+      <div class="info-job-item">
+        <div class="info-name">Post Date</div>
+        <div class="info-amount">4 days ago</div>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-9 border">
+        <div class="job-view d-flex">
+          <div class="job-view-info d-flex">
+            <div class="view-avt">
+              <img src="./image/avt.png" alt="" srcset="">
+            </div>
+            <div class="job-author">
+              <div class="author-name">
+                John Doe
+              </div>
+              <div class="author-location">
+                <span><i class="fa-solid fa-location-dot"></i>&ensp;New York</span>
+              </div>
+            </div>
+          </div>
+          <div class="job-salary">
+            <div class="view-salary">
+              $599
+            </div>
+            <div class="view-status-job">
+              <span class="badge badge-pill" id="status-job">Full Time</span>
+            </div>
+          </div>
+        </div>
+        <div class="job-view-bot">
+          <h3 style="margin-top: 30px;">UX Designer</h3>
+          <div class="job-view-des">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum optio modi necessitatibus architecto iure eum iusto, consequuntur, obcaecati dolores tempore a ab, consectetur consequatur provident illo? Dicta maiores repellendus impedit.
+            Nisi distinctio sint doloremque earum repellendus commodi dolor similique accusamus laudantium laboriosam sapiente, vitae harum minus dolore ratione, non laborum, delectus ipsam obcaecati iusto totam perspiciatis. Ullam quae aspernatur deserunt?
+            Eveniet atque tempore illo molestiae corrupti dolor quo sequi asperiores perspiciatis non autem in cupiditate, alias nam mollitia quisquam repudiandae suscipit eos quos culpa tenetur commodi amet. Quis, ea rem?
+            Voluptatem est assumenda in dolore nulla natus, ipsa omnis magni qui molestias officiis soluta, suscipit illum optio! Facere, iusto architecto rem reprehenderit in possimus vitae corporis? Dicta possimus numquam iusto.
+            Veritatis ducimus, soluta quibusdam suscipit, voluptates quam minima iure ad non cumque, consequatur ab asperiores! Laudantium praesentium ut minus esse necessitatibus, similique blanditiis cumque, impedit quidem neque repudiandae quae delectus?
+          </div>
+          <div class="skills-badge">
+            <span class="badge badge-pill badge-skill-item">UI</span>
+            <span class="badge badge-pill badge-skill-item">UX</span>
+            <span class="badge badge-pill badge-skill-item">Photoshop</span>
+            <span class="badge badge-pill badge-skill-item">illustrator</span>
+            <span class="badge badge-pill badge-skill-item">Corel Draw</span>
+            <span class="badge badge-pill badge-skill-item">Graphic Design</span>
+
+          </div>
+          <h4 style="margin-bottom:30px">Requirements</h4>
+          <div class="job-view-require d-flex">
+            <div class="col-auto pl-0">
+              <h5>Availability :</h5>
+              <h5>Experience Level :</h5>
+              <h5>Languages :</h5>
+              <h5>Qualification :</h5>
+            </div>
+            <div class="col">
+                  
+              <h5 class="job-view-require-text">Full Time</h5>
+              <h5 class="job-view-require-text">Intermediate (3 year - 5 year)</h5>
+              <h5 class="job-view-require-text">English</h5>
+              <h5 class="job-view-require-text">Bachelor Degre</h5>
+            </div>
+          </div>
+          <div class="btn btn-job-view"><a href="">APPLY NOW</a></div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="job-view-top-right">
+          <div class="btn-job-view-top-right">
+            <a href="#">APPLY NOW</a>
+          </div>
+          <div class="btn-job-view-top-right" id="bookmark">
+            <a href="#"><i class="fa-solid fa-heart"></i>&emsp; BOOKMARK</a>
+          </div>
+          <div class="social-icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="similar-job">
+    <div class="container">
+      <h3>Similar Jobs</h3>
+      <img src="./image/Line.png" alt="" srcset="">
+      <div class="row">
+        <div class="card-group">
+          <div class="profile-item border">
+            <div class="profile-info">
+              <div class="profile-top d-flex">
+                <div class="profile-avt min-div-profile-top">
+                <img src="./image/avt.png" alt="" srcset="">
+  
+                </div>
+                <div class="profile-top-mid min-div-profile-top">
+                  <p class="profile-name">John Doe</p>
+                  <span class="location"><i class="fa-solid fa-location-dot"></i> New York City</span>
+                </div>
+                <div class="profile-top-right min-div-profile-top">
+                  <p class="profile-cost">$50 / hr</p>
+                  <span class="badge badge-pill badge-success badge-status">Fulltime</span>
+                </div>
+              </div>
+              <h3 class="job-name">UX Designer</h3>
+              <p class="des-profile-job">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabi dictum commodo mi.</p>
+              <div class="profile-skill">
+                <span class="badge badge-pill profile-skill-item">UX</span>
+                <span class="badge badge-pill profile-skill-item">UI</span>
+                <span class="badge badge-pill profile-skill-item">Photoshop</span>
+                <span class="badge badge-pill profile-skill-item skill-count">+4</span>
+              </div>
+            </div>
+            <div class="btn-group btn-group-profile" role="group" aria-label="Basic example">
+              <button type="button" style="height:50px;width:150px" class="btn btn-profile-item border">APPLY NOW</button>
+              <button type="button" style="height:50px;width:150px" class="btn btn-profile-item border">VIEW JOB</button>
+              <button type="button" style="height:50px;Width:60px" class="btn btn-profile-item border"><i class="fa-solid fa-heart"></i></button>
+            </div>
+          </div>
+          <div class="profile-item border">
+            <div class="profile-info">
+              <div class="profile-top d-flex">
+                <div class="profile-avt min-div-profile-top">
+                <img src="./image/avt.png" alt="" srcset="">
+  
+                </div>
+                <div class="profile-top-mid min-div-profile-top">
+                  <p class="profile-name">John Doe</p>
+                  <span class="location"><i class="fa-solid fa-location-dot"></i> New York City</span>
+                </div>
+                <div class="profile-top-right min-div-profile-top">
+                  <p class="profile-cost">$50 / hr</p>
+                  <span class="badge badge-pill badge-success badge-status status-time">Part Time</span>
+                </div>
+              </div>
+              <h3 class="job-name">UX Designer</h3>
+              <p class="des-profile-job">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabi dictum commodo mi.</p>
+              <div class="profile-skill">
+                <span class="badge badge-pill profile-skill-item">UX</span>
+                <span class="badge badge-pill profile-skill-item">UI</span>
+                <span class="badge badge-pill profile-skill-item">Photoshop</span>
+                <span class="badge badge-pill profile-skill-item skill-count">+4</span>
+              </div>
+            </div>
+            <div class="btn-group btn-group-profile" role="group" aria-label="Basic example">
+              <button type="button" style="height:50px;width:150px" class="btn btn-profile-item border">APPLY NOW</button>
+              <button type="button" style="height:50px;width:150px" class="btn btn-profile-item border">VIEW JOB</button>
+              <button type="button" style="height:50px;Width:60px" class="btn btn-profile-item border"><i class="fa-solid fa-heart"></i></button>
+            </div>
+          </div>
+          <div class="profile-item border">
+            <div class="profile-info">
+              <div class="profile-top d-flex">
+                <div class="profile-avt min-div-profile-top">
+                <img src="./image/avt.png" alt="" srcset="">
+  
+                </div>
+                <div class="profile-top-mid min-div-profile-top">
+                  <p class="profile-name">John Doe</p>
+                  <span class="location"><i class="fa-solid fa-location-dot"></i> New York City</span>
+                </div>
+                <div class="profile-top-right min-div-profile-top">
+                  <p class="profile-cost">$900</p>
+                  <span class="badge badge-pill badge-success badge-status">Fulltime</span>
+                </div>
+              </div>
+              <h3 class="job-name">UX Designer</h3>
+              <p class="des-profile-job">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabi dictum commodo mi.</p>
+              <div class="profile-skill">
+                <span class="badge badge-pill profile-skill-item">UX</span>
+                <span class="badge badge-pill profile-skill-item">UI</span>
+                <span class="badge badge-pill profile-skill-item">Photoshop</span>
+                <span class="badge badge-pill profile-skill-item skill-count">+4</span>
+              </div>
+            </div>
+            <div class="btn-group btn-group-profile" role="group" aria-label="Basic example">
+              <button type="button" style="height:50px;width:150px" class="btn btn-profile-item border">APPLY NOW</button>
+              <button type="button" style="height:50px;width:150px" class="btn btn-profile-item border">VIEW JOB</button>
+              <button type="button" style="height:50px;Width:60px" class="btn btn-profile-item border"><i class="fa-solid fa-heart"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid footer">  
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-6 col-sm-12 col-lg-6">
+            <!-- <div class="footer-top-left">
+                        </div> -->
+              <h3 class="text">Subscribe to Newsletter</h3>
+              <i class="fa-solid fa-circle-check" style="color:#ff4500;font-size:1.4rem"></i>&ensp;
+              <span class="text">Cras nunc mauris, rhoncus eu justo at, egestas sagittis felis. </span>
+  
+        </div>
+        <div class="col-md-6 col-sm-12 col-lg-6 d-flex justify-content-end footer-top-right pl-0">
+          <input class="form-control" type="text" name="" id="footer-top-right-input">
+          <button class="btn btn-footer-top-right">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <!-- end footer-top -->
+    <li><hr class="dropdown-divider"></li>
+    
+  <!-- footer main -->
+      <div class="container">
+        <div class="row footer-main">
+          <div class="col-md-3 about-company">
+            <img src="./image/logo-footer.png" alt="logo">
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu purus et diam blandit vehicula sit amet sed metus. Fusce condimentum non neque at fringilla. Aenean malesuada aliquet tincidunt.
+            </p>
+          </div>
+          <div class="col-md-3 about-link p-0">
+            <h3 class="title">About</h3>
+            <ul class="text">
+              <li> <a href="#">About us</a></li>
+              <li> <a href="#">Login</a></li>
+              <li> <a href="#">My Account</a></li>
+              <li> <a href="#">Contact</a></li>
+              <li> <a href="#">Privacy Policy</a></li>
+              <li> <a href="#">Term of use</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 for-companies p-0">
+            <h3 class="title">For Companies</h3>
+            <ul class="text">
+                  
+              <li><a href="#">Browese Freelancers</a></li>
+              <li><a href="#">Post a Job</a></li>
+              <li><a href="#">Post a Project</a></li>
+              <li><a href="#">Pricing Plans</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 for-candidates p-0">
+            <h3 class="title">For Candidates</h3>
+            <ul class="text">
+              <li><a href="#">Browese Jobs</a></li>
+              <li> <a href="#">Job Alerts</a></li>
+              <li><a href="#">Applied Jobs</a></li>
+              <li><a href="#">Bookmarks</a></li>
+            </ul>
+          </div>
+      </div>
+      <!-- end footer-main -->
+  
+    </div>
+  <hr class="dropdown-divider" style="color:red">
+  
+    <!-- footer-bot -->
+          <div class="container">
+            <div class="row footer-bot">
+              <div class="col-md-6">
+                <div class="footer-bot_left">
+                  <p class="footer-bot-text"><i class="fa-solid fa-copyright"></i>&ensp;Copyright 2018 <a style="font-weight: 500;color:white;">Jobby</a> by <a style="color:#e24105">Gambol</a>. All Right Reserved.</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="footer-bot-right">
+                    <div class="footer-bot-right-left">
+                      <i class="fa-solid fa-globe"></i>&ensp;EN&ensp;<i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="social-icon">
+                      <i class="fa-brands fa-facebook-f"></i>
+                      <i class="fa-brands fa-twitter"></i>
+                      <i class="fa-brands fa-google-plus-g"></i>
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+</section>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
